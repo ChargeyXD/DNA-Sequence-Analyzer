@@ -9,7 +9,7 @@ def analyze_sequence(dna_seq):
     base_counts = {base: seq.count(base) for base in "ATCG"}
 
     # GC Content
-    gc_content = gc_fraction(seq) * 100  # gc_fraction returns a fraction
+    gc_content = gc_fraction(seq) * 100  # gc_fraction returns a fractionajskda
     print("GC Content:", gc_content)
 
     # Reverse Complement
